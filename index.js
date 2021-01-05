@@ -11,8 +11,6 @@ process.on("SIGTERM", () => {
     process.exit();
 });
 
-
-
 (async () => {
     const app = express();
 
